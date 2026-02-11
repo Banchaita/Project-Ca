@@ -25,7 +25,6 @@ const WhyUs = () => {
               potential issues.
             </p>
           </Col>
-
           <WhyUsCard />
         </Row>
       </Container>
