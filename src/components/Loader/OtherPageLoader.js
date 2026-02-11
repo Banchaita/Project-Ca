@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHandsPraying } from "@fortawesome/free-regular-svg-icons";
 
 const OtherPageLoader = () => {
   return (
