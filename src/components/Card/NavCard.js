@@ -39,7 +39,14 @@ const NavCard = () => {
               </div>
             ) : (
               <Row>
-                {(navname === "BookKeeping" ? bookKeepingItems : nav_data?.data)?.map((item, index) => (
+                {(navname === "BookKeeping"
+                  ? bookKeepingItems
+                  : (nav_data?.data || []).filter(
+                      (item) =>
+                        !(navname === "IncomeTax" &&
+                          item.subnavname?.toLowerCase() === "professional tax")
+                    )
+                )?.map((item, index) => (
                   <Col
                     key={index}
                     xs={12}

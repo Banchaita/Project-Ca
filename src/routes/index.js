@@ -223,11 +223,6 @@ const AppRouter = () => {
         element={<TanRegistration />}
       />
       <Route
-        path="/service/IncomeTax/professional_tax"
-        exact
-        element={<ProfessionalTax />}
-      />
-      <Route
         path="/service/registration/professional_tax"
         exact
         element={<ProfessionalTax />}
