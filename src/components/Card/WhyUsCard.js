@@ -13,7 +13,7 @@ const WhyUsCard = () => {
               <div className="why-card">
                 <div className="face face1">
                   <div className="content">
-                    <h3>Keep your business healthy by Regular monitoring</h3>
+                    <h3>Team of Professionals</h3>
                   </div>
                 </div>
                 <div className="face face2">
@@ -32,7 +32,7 @@ const WhyUsCard = () => {
               <div className="why-card">
                 <div className="face face1">
                   <div className="content">
-                    <h3>Get all your deductions and reduce tax liability</h3>
+                    <h3>Client Confidentiality: Privacy &amp; Confidentiality</h3>
                   </div>
                 </div>
                 <div className="face face2">
@@ -52,7 +52,7 @@ const WhyUsCard = () => {
                 <div className="face face1">
                   <div className="content">
                     <h3>
-                      Save your time so you can focus on your core business
+                      Transparent Working
                     </h3>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ const WhyUsCard = () => {
               <div className="why-card">
                 <div className="face face1">
                   <div className="content">
-                    <h3>Make real-time decisions and business intelligence</h3>
+                    <h3>Pro Active Approach</h3>
                   </div>
                 </div>
                 <div className="face face2">
@@ -91,7 +91,7 @@ const WhyUsCard = () => {
               <div className="why-card">
                 <div className="face face1">
                   <div className="content">
-                    <h3>Plan for the future and help your business to grow</h3>
+                    <h3>Time &amp; Cost Efficient</h3>
                   </div>
                 </div>
                 <div className="face face2">

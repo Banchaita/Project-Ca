@@ -90,6 +90,8 @@ import ShareTransfer from "./Service/ROC/ShareTransfer";
 import WindingUpOfCompany from "./Service/ROC/WindingUpOfCompany";
 import WindingUpOfLLP from "./Service/ROC/WindingUpOfLLP";
 import StatutoryCompliance from "./Service/ROC/StatutoryCompliance";
+import Payroll from "./Service/Payroll";
+import DSC from "./Service/Registration/DSC";
 
 
 
@@ -190,5 +192,7 @@ export {
   ShareTransfer,
   WindingUpOfCompany,
   WindingUpOfLLP,
-  StatutoryCompliance
+  StatutoryCompliance,
+  Payroll,
+  DSC
 };

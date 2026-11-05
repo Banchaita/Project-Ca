@@ -129,7 +129,7 @@ const Card = () => {
                     icon={faMoneyCheckDollar}
                     style={{ color: "#05044D" }}
                   />
-                  <h3>Funding</h3>
+                  <h3>Funding: Project &amp; Business Funding</h3>
                 </div>
                 <div className="card-body">
                   <div className="desc">
@@ -291,6 +291,8 @@ const Card = () => {
                     style={{
                       marginLeft: "100px",
                       width: "70px",
+                      height: "70px",
+                      objectFit: "contain",
                       marginTop: "-5px",
                     }}
                   />
@@ -303,6 +305,48 @@ const Card = () => {
                     <br/>
                   <Link to="/taxtion" className="card-link text-dark"> View More
                 </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Col>
+           <Col sm={12} md={3} lg={3}>
+            <div className="card-wrapper">
+              <div className="card">
+                <div className="card-head">
+                  <FontAwesomeIcon
+                    icon={faMoneyCheckDollar}
+                    style={{ color: "#05044D" }}
+                  />
+                  <h3>Payroll Services</h3>
+                </div>
+                <div className="card-body">
+                  <div className="desc">
+                    Expertly manage your payroll to ensure compliance and maximize
+                    savings for your financial success.
+                    <br/>
+                  <Link to="/payroll" className="card-link text-dark"> View More
+                </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col sm={12} md={3} lg={3}>
+            <div className="card-wrapper">
+              <div className="card">
+                <div className="card-head">
+                  <FontAwesomeIcon
+                    icon={faFileCircleCheck}
+                    style={{ color: "#05044D" }}
+                  />
+                  <h3>DSC Services</h3>
+                </div>
+                <div className="card-body">
+                  <div className="desc">
+                    Digital Signature Certificates for secure online filings and compliance.
+                    <br />
+                    <Link to="/service/registration/dsc" className="card-link text-dark">View More</Link>
                   </div>
                 </div>
               </div>

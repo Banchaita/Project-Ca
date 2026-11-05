@@ -16,9 +16,6 @@ const WhatWeDo = () => {
         </Row>
         <Row>
           <Col>
-            <h6 className="text-center mt-4">
-              We assist clients in Audits, Tax & Accounting and other services
-            </h6>
             <p>
               At Purminder Kaur & Associates, we offer a comprehensive range of
               financial services including Accounting, International Tax and

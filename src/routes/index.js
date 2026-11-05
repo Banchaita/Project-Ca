@@ -86,7 +86,9 @@ import {
     ShareTransfer,
     WindingUpOfCompany,
     WindingUpOfLLP,
-    StatutoryCompliance
+  StatutoryCompliance,
+  Payroll,
+  DSC
 
 
 
@@ -108,6 +110,8 @@ const AppRouter = () => {
       <Route path="/taxtion" exact element={<Taxtion />} />
       <Route path="/service/accounting" exact element={<Accounting />} />
       <Route path="/service/auditing" exact element={<Auditing />} />
+      <Route path="/payroll" exact element={<Payroll />} />
+      <Route path="/service/registration/dsc" exact element={<DSC />} />
       <Route path="/rules_acts" exact element={<RulesAndActs />} />
       <Route path="/service/:navname" element={<AllSubNavItem />} />
 
@@ -220,6 +224,11 @@ const AppRouter = () => {
       />
       <Route
         path="/service/IncomeTax/professional_tax"
+        exact
+        element={<ProfessionalTax />}
+      />
+      <Route
+        path="/service/registration/professional_tax"
         exact
         element={<ProfessionalTax />}
       />

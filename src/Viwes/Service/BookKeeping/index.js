@@ -18,22 +18,14 @@ const BookKeeper = () => {
           </Row>
           <Row className="justify-content-md-center">
             <Col xs={12} md={12} lg={12} className="mt-5 what-us-text">
-              <p>
-                As a BookKeeper, my primary responsibilities encompass
-                maintaining accurate financial records, including managing
-                accounts payable and receivable, reconciling bank statements,
-                and ensuring compliance with relevant financial regulations. I
-                adeptly utilize accounting software to track and report on
-                financial transactions, prepare detailed financial statements,
-                and assist in budget preparation. My role involves meticulous
-                attention to detail, ensuring that all financial data is
-                accurately recorded and up-to-date. Additionally, I collaborate
-                with accountants and auditors, providing them with necessary
-                documentation and supporting financial analysis. My strong
-                organizational skills and proficiency in handling sensitive
-                financial information contribute significantly to the financial
-                health and transparency of the organization.
-              </p>
+              <ul>
+                <li>Accounting</li>
+                <li>Record Keeping</li>
+                <li>Bank Reconciliations</li>
+                <li>Monthly Reviews</li>
+                <li>Compliance Check</li>
+                <li>Ledger Scrutiny &amp; Review</li>
+              </ul>
             </Col>
           </Row>
         </Container>

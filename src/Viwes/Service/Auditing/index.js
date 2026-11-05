@@ -13,7 +13,9 @@ const Auditing = () => {
           <Col xs={12} md={5}>
             <p className="otherhero-text">
               <h1 className="text-center">Auditing</h1>
-              Auditing is a systematic process aimed at evaluating the
+              Our auditing services include Statutory Audit under the Companies
+              Act and LLP Act, Tax Audit, GST Audit, and Stock Audit. Auditing
+              is a systematic process aimed at evaluating the
               effectiveness of an organization’s internal controls, risk
               management, and governance processes to ensure compliance with
               laws, regulations, and internal policies. The scope of an audit

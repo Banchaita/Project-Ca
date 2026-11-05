@@ -13,6 +13,10 @@ export const menuItemsData = [
       {
         title: "Registrations",
         url: "/service/Registrations",
+        submenu: [
+          { title: "Professional Tax", url: "/service/registration/professional_tax" },
+          { title: "DSC Services", url: "/service/registration/dsc" },
+        ],
         // submenu: [
         //   {
         //     title: "Proprietorship",
@@ -59,6 +63,11 @@ export const menuItemsData = [
       {
         title: "Income Tax",
         url: "/service/IncomeTax",
+        submenu: [
+          { title: "Income Tax Litigation", url: "/taxtion" },
+          { title: "Tax Exemptions", url: "/taxtion" },
+          { title: "Other Deductions", url: "/taxtion" },
+        ],
         // submenu: [
         //   {
         //     title: "ITR Filing",

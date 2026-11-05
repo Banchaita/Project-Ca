@@ -21,7 +21,7 @@ const Contact = () => {
                 <ul>
                   <li className="office-address">
                     <strong>Address : </strong>
-                    SCO- 79, First Floor, <br />
+                    SCF- 77-78-79, First Floor, <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     Phase – XI,Mohali, <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
