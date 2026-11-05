@@ -1018,7 +1018,15 @@ a.hedingnews {
   border-radius: 15px;
   /* margin: 30px; */
   transition: 0.5s;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
+}
+
+@media (min-width: 768px) {
+  .support-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
 }
 
 .support-container .support-card .box {
@@ -1052,35 +1060,43 @@ a.hedingnews {
 .support-container .support-card .box .content {
   padding: 20px;
   text-align: center;
+  width: 100%;
 }
 
 .support-container .support-card .box .content svg {
-  position: absolute;
-  top: 12px;
-  right: 114px;
+  position: static;
+  display: block;
+  margin: 0 auto 14px;
+  transform: none;
   font-size: 35px;
 }
 
 .support-container .support-card .box .content h3 {
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   z-index: 1;
   transition: 0.5s;
   margin-bottom: 15px;
-  margin-top: 28%;
+  margin-top: 0;
   text-transform: uppercase;
   font-weight: 600;
+  line-height: 1.25;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 
 }
 
 .support-container .support-card .box .content p {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.9);
   z-index: 1;
   transition: 0.5s;
   color: gray;
   text-align: -webkit-match-parent;
+  line-height: 1.55;
+  overflow-wrap: normal;
 }
 
 

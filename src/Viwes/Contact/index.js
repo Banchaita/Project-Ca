@@ -20,7 +20,7 @@ const Contact = () => {
                 <p>Purminder Kaur & Associates</p>
                 <ul>
                   <li className="office-address">
-                    <strong>Address : </strong>
+                    <strong>Address: </strong>
                     SCF- 77-78-79, First Floor, <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     Phase – XI,Mohali, <br />

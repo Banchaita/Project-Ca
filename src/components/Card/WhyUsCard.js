@@ -13,7 +13,7 @@ const WhyUsCard = () => {
               <div className="why-card">
                 <div className="face face1">
                   <div className="content">
-                    <h3>Team of Professionals</h3>
+                    <h3> Team of Professionals</h3>
                   </div>
                 </div>
                 <div className="face face2">
@@ -72,7 +72,7 @@ const WhyUsCard = () => {
               <div className="why-card">
                 <div className="face face1">
                   <div className="content">
-                    <h3>Pro Active Approach</h3>
+                    <h3> Pro Active Approach</h3>
                   </div>
                 </div>
                 <div className="face face2">

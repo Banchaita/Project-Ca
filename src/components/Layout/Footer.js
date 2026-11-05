@@ -92,9 +92,8 @@ const Footer = () => {
                       <FontAwesomeIcon icon={faMapMarkerAlt} /> &nbsp;
                       <span>
                         {" "}
-                        SCO 79, First Floor, Phase 11, Tarf Kumbra, Sahibzada
-                        Ajit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Singh Nagar,
-                        Punjab 160062
+                        SCF- 77-78-79, First Floor, Phase 11, Tarf Kumbra,
+                        Sahibzada Ajit Singh Nagar, Punjab 160062
                       </span>
                     </Link>
                   </li>

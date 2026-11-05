@@ -9,9 +9,9 @@ import { Col, Container, Row } from "react-bootstrap";
 const SupportCard = () => {
   return (
     <>
-      <Container>
+      <Container fluid>
         <Row>
-          <Col sm={12} md={3} lg={3}>
+          <Col sm={12} md={2} lg={2} className="support-col">
             <div className="support-container">
               <div className="support-card">
                 <div className="box">
@@ -20,11 +20,10 @@ const SupportCard = () => {
                       icon={faFolderOpen}
                       style={{ color: "#05044D" }}
                     />
-                    <h3>Client Confidentiality</h3>
+                    <h3>Team of Professionals</h3>
                     <p>
-                      We strictly adhere to a privacy policy that prohibits the
-                      disclosure of confidential client information to any third
-                      party.
+                      Our professional team supports your business with
+                      reliable financial expertise.
                     </p>
                   </div>
                 </div>
@@ -32,8 +31,8 @@ const SupportCard = () => {
             </div>
           </Col>
 
-          <Col sm={12} md={3} lg={3}>
-            <div className="support-container ml-5">
+          <Col sm={12} md={2} lg={2} className="support-col">
+            <div className="support-container">
               <div className="support-card">
                 <div className="box">
                   <div className="content">
@@ -41,19 +40,18 @@ const SupportCard = () => {
                       icon={faHeadset}
                       style={{ color: "#05044D" }}
                     />
-                    <h3>Customer Support</h3>
+                    <h3>Client Confidentiality & Privacy </h3>
                     <p>
-                      We prioritize strong client relationships, ensuring timely
-                      assistance and resolution through our Client Support
-                      System for a positive impression.
+                      We strictly protect confidential client information and
+                      maintain privacy in every engagement.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </Col>
-          <Col sm={12} md={3} lg={3}>
-            <div className="support-container ml-5">
+          <Col sm={12} md={2} lg={2} className="support-col">
+            <div className="support-container">
               <div className="support-card">
                 <div className="box">
                   <div className="content">
@@ -61,19 +59,17 @@ const SupportCard = () => {
                       icon={faHourglassStart}
                       style={{ color: "#05044D" }}
                     />
-                    <h3>Time & Cost Effectiveness</h3>
+                    <h3> Transparent Working</h3>
                     <p>
-                      We deliver top-notch professional services that meet
-                      industry standards, ensuring timely and cost-effective
-                      solutions.
+                      We keep our processes, communication, and work terms clear.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </Col>
-          <Col sm={12} md={3} lg={3}>
-            <div className="support-container ml-5">
+          <Col sm={12} md={2} lg={2} className="support-col">
+            <div className="support-container">
               <div className="support-card">
                 <div className="box">
                   <div className="content">
@@ -81,12 +77,24 @@ const SupportCard = () => {
                       icon={faPeopleLine}
                       style={{ color: "#05044D" }}
                     />
-                    <h3>Team of Professionals</h3>
+                    <h3>Pro Active Approach</h3>
                     <p>
-                      Our professional team assesses your finances
-                      comprehensively, forecasts year-round, and ensures your
-                      business stays in a healthy, prosperous state.
+                      We identify requirements early and act proactively for
+                      smoother business compliance.
                     </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col sm={12} md={2} lg={2} className="support-col">
+            <div className="support-container">
+              <div className="support-card">
+                <div className="box">
+                  <div className="content">
+                    <FontAwesomeIcon icon={faHourglassStart} style={{ color: "#05044D" }} />
+                    <h3>Time &amp; Cost Efficient</h3>
+                    <p>Efficient professional services that save time and control cost.</p>
                   </div>
                 </div>
               </div>

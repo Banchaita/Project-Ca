@@ -11,6 +11,15 @@ const NavCard = () => {
   const nav_data = useSelector((state) => state.auth.navitems?.data);
   const [loading, setLoading] = useState(true);
 
+  const bookKeepingItems = [
+    { subnavname: "Accounting", text: "Maintain accurate financial accounts and records.", url: "/service/bookkeeping/accounting" },
+    { subnavname: "Record Keeping", text: "Organized and reliable business record keeping.", url: "/service/bookkeeping/accounting" },
+    { subnavname: "Bank Reconciliations", text: "Compare bank statements with ledger records.", url: "/service/bookkeeping/bankreconciliation" },
+    { subnavname: "Monthly Reviews", text: "Review monthly financial records and performance.", url: "/Service/bookkeeping/MonthlyReview" },
+    { subnavname: "Compliance Check", text: "Regular checks to keep your business compliant.", url: "/service/ROC/StatutoryCompliance" },
+    { subnavname: "Ledger Scrutiny & Review", text: "Detailed scrutiny and review of ledger accounts.", url: "/service/bookkeeping/vouching" },
+  ];
+
   console.log("nav_data", nav_data);
 
   // Fetch nav items when the component mounts or when navname changes
@@ -30,7 +39,7 @@ const NavCard = () => {
               </div>
             ) : (
               <Row>
-                {nav_data?.data?.map((item, index) => (
+                {(navname === "BookKeeping" ? bookKeepingItems : nav_data?.data)?.map((item, index) => (
                   <Col
                     key={index}
                     xs={12}

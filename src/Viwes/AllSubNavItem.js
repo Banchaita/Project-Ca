@@ -8,6 +8,7 @@ import { useParams } from "react-router-dom";
 
 const AllSubNavItem = () => {
     const { navname } = useParams();
+    const formattedNavName = navname === "IncomeTax" ? "Income Tax" : navname;
     console.log("navname", navname);
   return (
     <>
@@ -15,7 +16,7 @@ const AllSubNavItem = () => {
       <Container fluid>
         <Row>
           <Col>
-            <h2 className="text-center mt-5 mb-4">{navname}  Services</h2>
+            <h2 className="text-center mt-5 mb-4">{formattedNavName} Services</h2>
             <NavCard navName={navname} />
           </Col>
         </Row>
