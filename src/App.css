@@ -477,11 +477,12 @@ img.homeaboutimage.jumping-animation {
 }
 
 .hm-About-sec p {
-  font-size: 20px;
-  margin: 10px;
+  font-size: 16px;
+  margin: 0;
   text-align: justify;
-  margin-top: 28px;
-  line-height: 42px;
+  padding: 20px;
+  letter-spacing: 1px;
+  line-height: 30px;
 }
 
 .hm-About-sec h2 {

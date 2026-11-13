@@ -43,7 +43,7 @@ export default function Header() {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <MDBNavbarLink href="/about">About</MDBNavbarLink>
+                <MDBNavbarLink href="/about">About Us</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <MDBDropdown>
