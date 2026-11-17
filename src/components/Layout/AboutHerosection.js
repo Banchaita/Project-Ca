@@ -14,13 +14,11 @@ const AboutHerosection = ({ src }) => {
   return (
     <section className="hm-about-sec">
       <Container>
-        <div className="text-center mt-5 mb-5 hero-banner-sub-text-top">
-          <h1 className="home-subtitle">
-            {" "}
-               Welcome to <br/>Purminder Kaur & Associates
-          </h1>
+        <div className="text-center mt-5 mb-5 hero-banner-sub-text hero-banner-sub-text-first-row">
+          <div className="welcome-badge">WELCOME TO</div>
+          <h1 className="home-subtitle">PURMINDER KAUR &amp; ASSOCIATES</h1>
           <h6 className="home-subtext">
-            One Stop solutions for all financial needs
+            ONE STOP SOLUTIONS FOR ALL FINANCIAL NEEDS
           </h6>
         </div>
         <Row className="justify-content-md-center">
@@ -64,15 +62,6 @@ const AboutHerosection = ({ src }) => {
              
             </FloatButton.Group>
           </Col>
-          <div className="text-center mt-5 mb-5 hero-banner-sub-text">
-            <h1>
-              {" "}
-              <b>Welcome to Purminder Kaur & Associates</b>
-            </h1>
-            <h6 className="home-subtext">
-              One Stop solutions for all financial needs
-            </h6>
-          </div>
         </Row>
       </Container>
     </section>

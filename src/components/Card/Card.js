@@ -19,8 +19,8 @@ import Ab from "../../assets/images/ADVISORY-icon.png";
 const Card = () => {
   return (
     <>
-      <Container>
-        <Row>
+      <Container className="we-cater-grid">
+        <>
           {/* 1st Row start */}
           <Col sm={12} md={3} lg={3}>
             <div className="card-wrapper">
@@ -98,18 +98,17 @@ const Card = () => {
               <div className="card">
                 <div className="card-head">
                   <FontAwesomeIcon
-                    icon={faFileCircleCheck}
+                    icon={faCalculator}
                     style={{ color: "#05044D" }}
                   />
-                  <h3>Book Keeping</h3>
+                  <h3>Accounting &amp; Bookkeeping</h3>
                 </div>
                 <div className="card-body">
                   <div className="desc">
-                    Maintain financial records, manage accounts
-                    payable/receivable, reconcile bank statements, and ensure
-                    regulatory compliance.
+                    Complete accounting and bookkeeping support, including
+                    financial records, reconciliations, and reporting.
                     <br/>
-                <Link to="/service/bookkeeping/bankreconciliation" className="card-link text-dark"> View More
+                <Link to="/service/accounting" className="card-link text-dark"> View More
                 </Link>
                   </div>
                 </div>
@@ -117,9 +116,9 @@ const Card = () => {
             </div>
           </Col>
           {/* 1st Row end */}
-        </Row>
+        </>
 
-        <Row>
+        <>
           {/* 2nd Row start */}
           <Col sm={12} md={3} lg={3}>
             <div className="card-wrapper">
@@ -172,29 +171,6 @@ const Card = () => {
             <div className="card-wrapper">
               <div className="card">
                 <div className="card-head">
-                  <FontAwesomeIcon
-                    icon={faCalculator}
-                    style={{ color: "#05044D" }}
-                  />
-                  <h3>Accounting</h3>
-                </div>
-                <div className="card-body">
-                  <div className="desc">
-                    We assess finances, forecast yearly to keep your business
-                    healthy and prosperous.
-                    <br/>
-                <Link to="/service/accounting" className="card-link text-dark"> View More
-                </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Col>
-
-          <Col sm={12} md={3} lg={3}>
-            <div className="card-wrapper">
-              <div className="card">
-                <div className="card-head">
                 <img
                     src={Ab}
                     alt=""
@@ -219,9 +195,9 @@ const Card = () => {
             </div>
           </Col>
           {/* 2nd row end */}
-        </Row>
+        </>
 
-        <Row>
+        <>
           {/* 3rd Row start */}
           <Col sm={12} md={3} lg={3}>
             <div className="card-wrapper">
@@ -353,7 +329,7 @@ const Card = () => {
             </div>
           </Col>
           {/* 3rd row end */}
-        </Row>
+        </>
 
         {/* 
 

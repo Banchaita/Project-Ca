@@ -53,7 +53,7 @@ const MenuItems = ({ items, depthLevel }) => {
               aria-expanded={dropdown ? "true" : "false"}
               onClick={() => toggleDropdown()}>
               <Link to={items.url}>{items.title}</Link>
-              {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
+              {depthLevel > 0 ? null : <span className="arrow" />}
             </button>
             <Dropdown
               depthLevel={depthLevel}
@@ -68,7 +68,7 @@ const MenuItems = ({ items, depthLevel }) => {
               aria-haspopup="menu"
               aria-expanded={dropdown ? "true" : "false"}>
               {items.title}
-              {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
+              {depthLevel > 0 ? null : <span className="arrow" />}
             </button>
             <Dropdown
               depthLevel={depthLevel}

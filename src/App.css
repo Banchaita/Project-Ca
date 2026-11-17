@@ -37,7 +37,7 @@ h1 {
 }
 
 nav.desktop-nav {
-  margin-left: 40%;
+  margin-left: 33%;
   margin-top: 26px;
 }
 
@@ -163,7 +163,7 @@ img.homeaboutimage.jumping-animation {
 .desktop-nav .dropdown.show {
   display: block;
   color: #000;
-  min-width: 300px;
+  min-width: 200px;
   /* border-bottom: 1px solid #000;  */
 }
 
@@ -214,6 +214,30 @@ img.homeaboutimage.jumping-animation {
 
 /* menu on mobile */
 @media screen and (max-width: 960px) {
+  .hero-banner-sub-text-first-row {
+    display: block !important;
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+  }
+
+  .hero-banner-sub-text-first-row .welcome-badge {
+    padding: 6px 22px;
+    font-size: 0.95rem;
+    letter-spacing: 5px;
+  }
+
+  .hero-banner-sub-text-first-row .home-subtitle {
+    margin: 18px 0 16px;
+    font-size: clamp(1.65rem, 7vw, 2.8rem);
+    letter-spacing: 1px;
+  }
+
+  .hero-banner-sub-text-first-row .home-subtext {
+    padding: 8px 18px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+  }
+
   .hero-banner-sub-text-top {
     display: block;
     margin-top: -27% !important;
@@ -462,6 +486,45 @@ img.homeaboutimage.jumping-animation {
   font-weight: 600;
 }
 
+.hero-banner-sub-text-first-row {
+  margin: 42px auto 34px !important;
+  text-align: center;
+}
+
+.hero-banner-sub-text-first-row .welcome-badge {
+  display: inline-block;
+  padding: 7px 38px;
+  border-radius: 999px;
+  background: #c9e7ff;
+  color: #123d72;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 9px;
+  line-height: 1.4;
+}
+
+.hero-banner-sub-text-first-row .home-subtitle {
+  margin: 28px 0 22px;
+  color: #182e58;
+  font-size: clamp(2rem, 4vw, 4.6rem);
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.12;
+}
+
+.hero-banner-sub-text-first-row .home-subtext {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 48px;
+  border-radius: 999px;
+  background: #e6f4ff;
+  color: #16549b;
+  font-size: clamp(1rem, 1.7vw, 2rem);
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.35;
+}
+
 .desktop-view-hero-btn {
   display: none;
 }
@@ -583,6 +646,546 @@ img.homeaboutimage.jumping-animation {
   background: #e5dddd3b;
   padding-top: 107px;
   padding-bottom: 20px;
+}
+
+.we-cater-section {
+  background: #f7fbff;
+  padding: 46px 0 58px;
+}
+
+.we-cater-section .hm-services-title {
+  margin-bottom: 34px;
+}
+
+.we-cater-section .services-eyebrow {
+  display: inline-block;
+  padding: 9px 34px;
+  border-radius: 999px;
+  background: #cfe8ff;
+  color: #16447f;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.we-cater-section .hm-services-title h2 {
+  margin: 18px 0 8px;
+  color: #101d4e;
+  font-size: clamp(2.7rem, 5vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.we-cater-section .hm-services-title h2:after {
+  background: #f5bf25;
+  height: 5px;
+  width: 88px;
+  border-radius: 10px;
+  top: 108%;
+}
+
+.we-cater-section .hm-services-title h2 span {
+  color: #101d4e;
+}
+
+.we-cater-section .services-intro {
+  max-width: 850px;
+  margin: 22px auto 0;
+  color: #1c2951;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* We Cater: four-card responsive layout with static cards */
+.we-cater-section .hm-services-title {
+  margin-bottom: 28px;
+}
+
+.we-cater-section .hm-services-title h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 2.5vw, 2.5rem);
+  font-weight: 400;
+}
+
+.we-cater-section .hm-services-title h2 span {
+  font-weight: 800;
+}
+
+.we-cater-section .hm-services-title h2:after {
+  top: 112%;
+  width: 55px;
+  height: 3px;
+  background: #101d4e;
+}
+
+.we-cater-section .we-cater-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px 18px;
+  margin: 0;
+}
+
+.we-cater-section .we-cater-grid > [class*="col-"] {
+  width: auto;
+  max-width: none;
+  padding: 0;
+}
+
+.we-cater-section .card-wrapper {
+  height: 172px;
+  padding: 0;
+}
+
+.we-cater-section .card {
+  position: relative;
+  overflow: hidden;
+  padding: 12px 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(16, 29, 78, .12);
+  transition: none;
+}
+
+.we-cater-section .card:after {
+  content: "›";
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #b9dfff;
+  border-radius: 50%;
+  background: #fff;
+  color: #0b2b75;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+}
+
+.we-cater-section .card:hover,
+.we-cater-section .card.hover {
+  transform: none;
+  border-color: #d8e7f8;
+  box-shadow: 0 2px 8px rgba(16, 29, 78, .12);
+}
+
+.we-cater-section .card-head,
+.we-cater-section .card-body {
+  transform: none !important;
+}
+
+.we-cater-section .card-head {
+  text-align: left;
+}
+
+.we-cater-section .card-head svg,
+.we-cater-section .card-head img {
+  width: 38px !important;
+  height: 38px;
+  margin: 0 0 9px !important;
+  padding: 7px;
+  border-radius: 8px;
+  background: #d9efff;
+}
+
+/* Keep every Services dropdown item on one clean vertical alignment */
+.desktop-nav .dropdown.show {
+  padding: 12px 0 !important;
+  text-align: left !important;
+}
+
+.desktop-nav .dropdown.show > .menu-items,
+.desktop-nav .dropdown.show > li,
+.desktop-nav .dropdown.show .dropdown-submenu > li {
+  display: block;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.desktop-nav .dropdown.show a,
+.desktop-nav .dropdown.show button {
+  display: block;
+  width: 100%;
+  min-height: 38px;
+  margin: 0 !important;
+  /* padding: 8px 18px !important;
+  text-align: left !important; */
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+/* Dropdown labels should not inherit submenu arrows or overlap each other. */
+.desktop-nav .dropdown.show .arrow::after,
+.desktop-nav .dropdown.show a::after {
+  display: none !important;
+  content: none !important;
+}
+
+.desktop-nav .dropdown.show li::before,
+.desktop-nav .dropdown.show li::after {
+  content: none !important;
+  display: none !important;
+}
+
+.desktop-nav .dropdown.show .menu-items,
+.desktop-nav .dropdown.show li {
+  position: relative;
+  clear: both;
+  overflow: visible;
+}
+
+.desktop-nav .dropdown.show a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Reset the legacy absolute submenu/arrow styling inside this list. */
+.desktop-nav .dropdown.show,
+.desktop-nav .dropdown.show *,
+.desktop-nav .dropdown.show *::before,
+.desktop-nav .dropdown.show *::after {
+  position: static !important;
+  transform: none !important;
+}
+
+.desktop-nav .dropdown.show *::before,
+.desktop-nav .dropdown.show *::after {
+  content: none !important;
+  display: none !important;
+}
+
+.desktop-nav .dropdown.show > li,
+.desktop-nav .dropdown.show li > a,
+.desktop-nav .dropdown.show li > button,
+.desktop-nav .dropdown.show li > div {
+  position: relative !important;
+  display: block !important;
+  clear: both !important;
+  float: none !important;
+}
+
+.desktop-nav .dropdown.show {
+  position: absolute !important;
+}
+
+/* MDB nested service menu reset: keep every submenu entry in normal flow. */
+.desktop-nav ul.dropdown-menu.dropdown-submenu,
+.desktop-nav ul.dropdown-menu.dropdown-submenu li,
+.desktop-nav ul.dropdown-menu.dropdown-submenu li > a,
+.desktop-nav ul.dropdown-menu.dropdown-submenu li > .nav-link {
+  position: static !important;
+  float: none !important;
+  clear: both !important;
+  display: block !important;
+  transform: none !important;
+}
+
+.desktop-nav ul.dropdown-menu.dropdown-submenu li > a::before,
+.desktop-nav ul.dropdown-menu.dropdown-submenu li > a::after,
+.desktop-nav ul.dropdown-menu.dropdown-submenu li > .nav-link::before,
+.desktop-nav ul.dropdown-menu.dropdown-submenu li > .nav-link::after {
+  content: none !important;
+  display: none !important;
+}
+
+.desktop-nav ul.dropdown-menu.dropdown-submenu li > a,
+.desktop-nav ul.dropdown-menu.dropdown-submenu li > .nav-link {
+  width: 100% !important;
+  min-height: 38px !important;
+  padding: 8px 18px !important;
+  margin: 0 !important;
+  line-height: 22px !important;
+  text-align: left !important;
+}
+
+/* Main Services list: one shared text edge for every item. */
+.desktop-nav > .menus > .menu-items > .dropdown.show > .menu-items > a,
+.desktop-nav > .menus > .menu-items > .dropdown.show > .menu-items > button {
+  padding-left: 22px !important;
+  padding-right: 22px !important;
+  text-align: left !important;
+}
+
+/* Keep nested service links visible inside the viewport instead of clipping. */
+.desktop-nav .dropdown .dropdown-submenu {
+  position: absolute !important;
+  left: 100% !important;
+  right: auto !important;
+  top: 0 !important;
+  width: 280px !important;
+  min-width: 280px !important;
+  max-width: calc(100vw - 24px) !important;
+  overflow: hidden !important;
+}
+
+/* Anchor each nested submenu to its own hovered menu item. */
+.desktop-nav .dropdown.show > .menu-items,
+.desktop-nav .dropdown.show > li {
+  position: relative !important;
+}
+
+.desktop-nav .dropdown.show > .menu-items > .dropdown-submenu,
+.desktop-nav .dropdown.show > li > .dropdown-submenu {
+  position: absolute !important;
+  left: 100% !important;
+  right: auto !important;
+  top: 0 !important;
+  margin-left: 4px !important;
+}
+
+/* One exact left edge for every first-level Services label. */
+.desktop-nav .dropdown.show > li.menu-items > a,
+.desktop-nav .dropdown.show > li.menu-items > button,
+.desktop-nav .dropdown.show > li.menu-items > .nav-link,
+.desktop-nav .dropdown.show > li > a,
+.desktop-nav .dropdown.show > li > button {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 8px 22px !important;
+  box-sizing: border-box !important;
+  text-align: left !important;
+  line-height: 22px !important;
+}
+
+.desktop-nav .dropdown .dropdown-submenu a {
+  padding-left: 22px !important;
+  padding-right: 14px !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+}
+
+.we-cater-section .card-head h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+  font-size: .76rem;
+  font-weight: 700;
+  color: #101d4e;
+}
+
+.we-cater-section .card-body {
+  display: block;
+  margin-top: 7px;
+}
+
+.we-cater-section .card-body .desc {
+  padding: 0;
+  color: #273252;
+  font-size: .62rem;
+  line-height: 1.22;
+  text-align: left !important;
+  max-width: 86%;
+}
+
+.we-cater-section .card-body br {
+  display: none;
+}
+
+.we-cater-section .card-body .card-link {
+  display: none;
+}
+
+/* Final compact card alignment overrides */
+.we-cater-section .card-wrapper {
+  height: 190px !important;
+}
+
+.we-cater-section .card {
+  padding: 12px !important;
+  overflow: hidden;
+}
+
+.we-cater-section .card-head h3 {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.12 !important;
+  text-align: left !important;
+}
+
+.we-cater-section .card-body {
+  display: block !important;
+  margin-top: 2px !important;
+  flex: 0 0 auto;
+}
+
+.we-cater-section .card-body .desc {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: .62rem !important;
+  line-height: 1.22 !important;
+  text-align: left !important;
+  overflow: visible !important;
+}
+
+/* Compact service tiles: icon + title only */
+.we-cater-section .card-body {
+  display: block !important;
+  position: absolute;
+  inset: 0;
+  margin: 0 !important;
+  z-index: 3;
+}
+
+.we-cater-section .card-body .desc {
+  display: block !important;
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+.we-cater-section .card-body .card-link {
+  display: block !important;
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  font-size: 0;
+}
+
+.we-cater-section .card-head h3 {
+  margin-top: 8px !important;
+  font-size: 1.5em !important;
+  line-height: 1.15 !important;
+}
+
+.we-cater-section .card-head svg,
+.we-cater-section .card-head img {
+  width: 42px !important;
+  height: 42px !important;
+  padding: 6px !important;
+}
+
+@media (max-width: 900px) {
+  .we-cater-section .we-cater-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .we-cater-section .we-cater-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .we-cater-section .card-wrapper {
+    height: 160px;
+  }
+
+  .we-cater-section .card {
+    padding: 18px 10px;
+  }
+
+  .we-cater-section .card-head h3 {
+    font-size: .68rem;
+  }
+
+  .we-cater-section .card-body .desc {
+    font-size: .64rem;
+  }
+}
+
+.we-cater-section > .container > .row:last-child > .col {
+  width: 100%;
+}
+
+.we-cater-section .card-wrapper {
+  height: 285px;
+  padding: 12px;
+}
+
+.we-cater-section .card {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  padding: 30px 24px;
+  border: 1px solid #d8e7f8;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 25px rgba(23, 73, 132, 0.1);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.we-cater-section .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 34px rgba(23, 73, 132, 0.18);
+}
+
+.we-cater-section .card-head {
+  transform: none;
+  text-align: left;
+}
+
+.we-cater-section .card-head svg,
+.we-cater-section .card-head img {
+  width: 64px !important;
+  height: 64px;
+  margin: 0 0 20px !important;
+  padding: 12px;
+  border-radius: 18px;
+  background: #d9efff;
+  object-fit: contain;
+}
+
+.we-cater-section .card-head h3 {
+  margin: 0;
+  padding: 0;
+  color: #101d4e;
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: none;
+}
+
+.we-cater-section .card-body {
+  transform: none;
+  margin-top: 14px;
+}
+
+.we-cater-section .card-body .desc {
+  padding: 0;
+  color: #273252;
+  font-size: 1rem;
+  line-height: 1.45;
+  text-align: left;
+}
+
+.we-cater-section .card-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1455a0 !important;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .we-cater-section .hm-services-sec > .container,
+  .we-cater-section > .container {
+    max-width: 1440px;
+  }
+}
+
+@media (max-width: 767px) {
+  .we-cater-section {
+    padding: 48px 0 55px;
+  }
+
+  .we-cater-section .services-eyebrow {
+    font-size: .85rem;
+    padding: 7px 20px;
+  }
+
+  .we-cater-section .services-intro {
+    padding: 0 18px;
+    font-size: 1rem;
+  }
+
+  .we-cater-section .card-wrapper {
+    height: 260px;
+  }
 }
 
 .navItenCon {

@@ -7,13 +7,11 @@ import Card from "../Card/Card";
 const Sevicesection = () => {
   return (
     <>
-      <section className="hm-services-sec" id="service">
+      <section className="hm-services-sec we-cater-section" id="service">
         <Container>
           <Row>
             <Col className="hm-services-title">
-              <h2>
-                We <span> Cater</span>
-              </h2>
+              <h2>We <span>Cater</span></h2>
             </Col>
           </Row>
           <Row>

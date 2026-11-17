@@ -13,10 +13,8 @@ export const menuItemsData = [
       {
         title: "Registrations",
         url: "/service/Registrations",
-        submenu: [
-          { title: "Professional Tax", url: "/service/registration/professional_tax" },
-          { title: "DSC Services", url: "/service/registration/dsc" },
-        ],
+      // Registration subnav removed; Professional Tax and DSC remain available
+      // through their dedicated registration cards/pages.
         // submenu: [
         //   {
         //     title: "Proprietorship",
@@ -63,11 +61,7 @@ export const menuItemsData = [
       {
         title: "Income Tax",
         url: "/service/IncomeTax",
-        submenu: [
-          { title: "Income Tax Litigation", url: "/taxtion" },
-          { title: "Tax Exemptions", url: "/taxtion" },
-          { title: "Other Deductions", url: "/taxtion" },
-        ],
+        // Income Tax subnav moved into the Income Tax service cards.
         // submenu: [
         //   {
         //     title: "ITR Filing",

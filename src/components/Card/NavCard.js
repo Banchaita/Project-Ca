@@ -20,6 +20,37 @@ const NavCard = () => {
     { subnavname: "Ledger Scrutiny & Review", text: "Detailed scrutiny and review of ledger accounts.", url: "/service/bookkeeping/vouching" },
   ];
 
+  const registrationItems = [
+    {
+      subnavname: "Professional Tax",
+      text: "Professional tax registration and compliance support for businesses and professionals.",
+      url: "/service/registration/professional_tax",
+    },
+    {
+      subnavname: "DSC Services",
+      text: "Digital Signature Certificate services for secure online filings and statutory compliance.",
+      url: "/service/registration/dsc",
+    },
+  ];
+
+  const incomeTaxItems = [
+    {
+      subnavname: "Income Tax Litigation",
+      text: "Support for income tax notices, disputes, appeals, and litigation matters.",
+      url: "/taxtion",
+    },
+    {
+      subnavname: "Tax Exemptions",
+      text: "Guidance on eligible tax exemptions and deductions to reduce tax liability.",
+      url: "/taxtion",
+    },
+    {
+      subnavname: "Other Deductions",
+      text: "Identify and claim applicable deductions for accurate and efficient tax filing.",
+      url: "/taxtion",
+    },
+  ];
+
   console.log("nav_data", nav_data);
 
   // Fetch nav items when the component mounts or when navname changes
@@ -41,10 +72,12 @@ const NavCard = () => {
               <Row>
                 {(navname === "BookKeeping"
                   ? bookKeepingItems
+                  : navname === "Registrations"
+                  ? [...(nav_data?.data || []), ...registrationItems]
+                  : navname === "IncomeTax"
+                  ? [...(nav_data?.data || []), ...incomeTaxItems]
                   : (nav_data?.data || []).filter(
-                      (item) =>
-                        !(navname === "IncomeTax" &&
-                          item.subnavname?.toLowerCase() === "professional tax")
+                      (item) => true
                     )
                 )?.map((item, index) => (
                   <Col
