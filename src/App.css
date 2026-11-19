@@ -957,6 +957,17 @@ img.homeaboutimage.jumping-animation {
   overflow-wrap: anywhere;
 }
 
+/* Keep the Services dropdown width unchanged, but allow its final long label
+   to wrap instead of being clipped with an ellipsis. */
+.desktop-nav .menus > .menu-items > .dropdown.show > .menu-items:last-child > a {
+  white-space: normal !important;
+  overflow: visible !important;
+  overflow-wrap: normal;
+  text-overflow: clip;
+  min-height: 60px !important;
+  line-height: 22px !important;
+}
+
 .we-cater-section .card-head h3 {
   margin: 0 !important;
   padding: 0 !important;
@@ -1323,6 +1334,30 @@ img.homeaboutimage.jumping-animation {
   width: 90%;
   max-width: 1000px;
   /* margin: 10vh auto; */
+}
+
+.auditing-services-grid {
+  margin-top: 1rem;
+}
+
+.auditing-card-link {
+  display: block;
+  height: 100%;
+  color: inherit;
+}
+
+.auditing-card-link:hover,
+.auditing-card-link:focus {
+  color: inherit;
+}
+
+.auditing-card-link .information {
+  height: 100%;
+  min-height: 280px;
+}
+
+.audit-detail-layout {
+  margin-top: 3rem;
 }
 
 .navcard {

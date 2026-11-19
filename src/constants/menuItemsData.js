@@ -269,7 +269,7 @@ export const menuItemsData = [
       },
 
       {
-        title: "Book Keeping",
+        title: "Accounting / Book Keeping",
         url: "/service/BookKeeping",
         // submenu: [
         //   {

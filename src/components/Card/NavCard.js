@@ -51,6 +51,11 @@ const NavCard = () => {
     },
   ];
 
+  // Professional Tax belongs to Registrations, not the Income Tax services page.
+  const incomeTaxNavItems = (nav_data?.data || []).filter(
+    (item) => item.subnavname !== "Professional Tax"
+  );
+
   console.log("nav_data", nav_data);
 
   // Fetch nav items when the component mounts or when navname changes
@@ -75,7 +80,7 @@ const NavCard = () => {
                   : navname === "Registrations"
                   ? [...(nav_data?.data || []), ...registrationItems]
                   : navname === "IncomeTax"
-                  ? [...(nav_data?.data || []), ...incomeTaxItems]
+                  ? [...incomeTaxNavItems, ...incomeTaxItems]
                   : (nav_data?.data || []).filter(
                       (item) => true
                     )

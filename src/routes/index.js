@@ -9,6 +9,7 @@ import {
   Schedule,
   PrivacyPolicy,
   Auditing,
+  AuditDetail,
   Accounting,
   RulesAndActs,
 
@@ -110,6 +111,7 @@ const AppRouter = () => {
       <Route path="/taxtion" exact element={<Taxtion />} />
       <Route path="/service/accounting" exact element={<Accounting />} />
       <Route path="/service/auditing" exact element={<Auditing />} />
+      <Route path="/service/auditing/:auditSlug" exact element={<AuditDetail />} />
       <Route path="/payroll" exact element={<Payroll />} />
       <Route path="/service/registration/dsc" exact element={<DSC />} />
       <Route path="/rules_acts" exact element={<RulesAndActs />} />

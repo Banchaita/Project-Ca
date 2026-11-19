@@ -7,6 +7,7 @@ import PrivacyPolicy from "./PrivacyPolicy";
 import Accounting from "./Service/Accounting";
 import Schedule from "./Schedule";
 import Auditing from "./Service/Auditing";
+import AuditDetail from "./Service/Auditing/AuditDetail";
 import AllSubNavItem from "./AllSubNavItem";
 import Taxtion from "./Taxtion";
 import RulesAndActs from "./RulesAndActs";
@@ -112,6 +113,7 @@ export {
   Event,
   Contact,
   Auditing,
+  AuditDetail,
   Schedule,
   Accounting,
   AllSubNavItem,
