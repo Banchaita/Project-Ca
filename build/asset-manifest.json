@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c6f2b61.css",
-    "main.js": "/static/js/main.7a4d5d7b.js",
+    "main.css": "/static/css/main.8c6ea61f.css",
+    "main.js": "/static/js/main.a2b415c5.js",
     "static/css/611.99ccb645.chunk.css": "/static/css/611.99ccb645.chunk.css",
-    "static/js/611.d102c58f.chunk.js": "/static/js/611.d102c58f.chunk.js",
+    "static/js/611.c4614600.chunk.js": "/static/js/611.c4614600.chunk.js",
     "static/js/453.99798bf3.chunk.js": "/static/js/453.99798bf3.chunk.js",
     "static/js/260.50ba0646.chunk.js": "/static/js/260.50ba0646.chunk.js",
     "static/media/Accountant-amico.png": "/static/media/Accountant-amico.a42e4dc1022b2c24272b.png",
@@ -13,15 +13,15 @@
     "static/media/values_ico.png": "/static/media/values_ico.b75568220599eb5c9b86.png",
     "static/media/ca_logo.png": "/static/media/ca_logo.e9e171070f2fab3c4e68.png",
     "index.html": "/index.html",
-    "main.1c6f2b61.css.map": "/static/css/main.1c6f2b61.css.map",
-    "main.7a4d5d7b.js.map": "/static/js/main.7a4d5d7b.js.map",
+    "main.8c6ea61f.css.map": "/static/css/main.8c6ea61f.css.map",
+    "main.a2b415c5.js.map": "/static/js/main.a2b415c5.js.map",
     "611.99ccb645.chunk.css.map": "/static/css/611.99ccb645.chunk.css.map",
-    "611.d102c58f.chunk.js.map": "/static/js/611.d102c58f.chunk.js.map",
+    "611.c4614600.chunk.js.map": "/static/js/611.c4614600.chunk.js.map",
     "453.99798bf3.chunk.js.map": "/static/js/453.99798bf3.chunk.js.map",
     "260.50ba0646.chunk.js.map": "/static/js/260.50ba0646.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c6f2b61.css",
-    "static/js/main.7a4d5d7b.js"
+    "static/css/main.8c6ea61f.css",
+    "static/js/main.a2b415c5.js"
   ]
 }

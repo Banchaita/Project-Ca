@@ -504,7 +504,7 @@ img.homeaboutimage.jumping-animation {
 }
 
 .hero-banner-sub-text-first-row .home-subtitle {
-  margin: 28px 0 22px;
+  margin: -73px 0 24px;
   color: #182e58;
   font-size: clamp(2rem, 4vw, 4.6rem);
   font-weight: 800;
@@ -1146,7 +1146,7 @@ img.homeaboutimage.jumping-animation {
   padding: 0;
   color: #101d4e;
   font-size: 1.35rem;
-  font-weight: 800;
+  /* font-weight: 700; */
   line-height: 1.2;
   text-align: left;
   text-transform: none;
@@ -1170,6 +1170,15 @@ img.homeaboutimage.jumping-animation {
   margin-top: 10px;
   color: #1455a0 !important;
   font-weight: 700;
+}
+
+/* Keep service-card text in the project font at a medium, non-bold weight. */
+.we-cater-section .card,
+.we-cater-section .card h3,
+.we-cater-section .card .desc,
+.we-cater-section .card .card-link {
+  font-family: inherit;
+  font-weight: 600;
 }
 
 @media (min-width: 992px) {

@@ -14,8 +14,7 @@ const AboutHerosection = ({ src }) => {
   return (
     <section className="hm-about-sec">
       <Container>
-        <div className="text-center mt-5 mb-5 hero-banner-sub-text hero-banner-sub-text-first-row">
-          <div className="welcome-badge">WELCOME TO</div>
+        <div className="text-center  mb-5 hero-banner-sub-text hero-banner-sub-text-first-row">
           <h1 className="home-subtitle">PURMINDER KAUR &amp; ASSOCIATES</h1>
           <h6 className="home-subtext">
             ONE STOP SOLUTIONS FOR ALL FINANCIAL NEEDS
